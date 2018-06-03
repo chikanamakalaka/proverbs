@@ -8,7 +8,7 @@ Usage
 
 Create venv & install dependencies:
 
-> Using viritualenv here to be compatable with python2, install with "pip install virtualenv"
+> Using viritualenv here to be compatable with python3, install with "pip3 install virtualenv"
 
 ```
 # create venv
