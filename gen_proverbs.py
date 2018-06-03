@@ -10,5 +10,5 @@ if __name__ == '__main__':
 	parser.add_argument('a', help = "How many lines to generate.")
 
 args = parser.parse_args(sys.argv[1])
-textgen = textgenrnn('weights/proverbs_weights.hdf5')
+textgen = textgenrnn('textgenrnn_weights.hdf5')
 textgen.generate(int(sys.argv[1]), temperature=0.5)
