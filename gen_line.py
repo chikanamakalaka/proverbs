@@ -3,5 +3,5 @@ import warnings
 warnings.filterwarnings("ignore")
 from textgenrnn import textgenrnn
 
-textgen = textgenrnn('textgenrnn_weights.hdf5')
-textgen.generate(25, temperature=0.5)
+textgen = textgenrnn('Colors_weights.hdf5')
+textgen.generate(10, temperature=2.5)
